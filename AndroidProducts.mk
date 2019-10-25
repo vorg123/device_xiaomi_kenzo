@@ -14,4 +14,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_kenzo.mk
+    $(LOCAL_DIR)/bliss_kenzo.mk
+
+COMMON_LUNCH_CHOICES := \
+    bliss_kenzo-userdebug \
+    bliss_kenzo-eng
