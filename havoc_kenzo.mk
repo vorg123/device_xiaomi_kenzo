@@ -17,7 +17,7 @@ $(call inherit-product, device/xiaomi/kenzo/full_kenzo.mk)
 
 
 # Inherit some common Havoc stuff.
-$(call inherit-product, vendor/havoc/config/common.mk)
+$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
 
 # Set those variables here to overwrite the inherited values.
