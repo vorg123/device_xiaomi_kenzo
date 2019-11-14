@@ -40,3 +40,6 @@ BUILD_FINGERPRINT=Xiaomi/kenzo/kenzo:6.0.1/MMB29M/V8.2.1.0.MHOCNDL:user/release-
 # Product packages
 TARGET_USE_JELLY := true
 
+# FMRadio
+PRODUCT_PACKAGES += \
+    FMRadio
