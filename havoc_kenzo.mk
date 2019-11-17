@@ -42,4 +42,5 @@ TARGET_USE_JELLY := true
 
 # FMRadio
 PRODUCT_PACKAGES += \
-    FMRadio
+    FMRadio \
+    Recorder
