@@ -51,3 +51,6 @@ USE_CCACHE=0
 
 export BLISS_BUILDTYPE=OFFICIAL
 export BLISS_DEVELOPER=Magicxavi
+
+PRODUCT_PACKAGES += \
+    AdvancedControls
