@@ -53,4 +53,7 @@ export BLISS_BUILDTYPE=OFFICIAL
 export BLISS_DEVELOPER=Magicxavi
 
 PRODUCT_PACKAGES += \
-    AdvancedControls
+    AdvancedControls \
+    OneplusWidget \
+    MintBrowser \
+    Phonograph
