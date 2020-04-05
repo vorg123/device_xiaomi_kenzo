@@ -50,3 +50,7 @@ PRODUCT_PACKAGES += \
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 TARGET_BOOT_ANIMATION_RES := 1080
+
+# Havoc build type
+HAVOC_BUILD_TYPE := Official
+ro.havoc.maintainer := Magicxavi
