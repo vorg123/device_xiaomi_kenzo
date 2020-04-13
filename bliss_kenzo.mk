@@ -56,4 +56,5 @@ PRODUCT_PACKAGES += \
     AdvancedControls \
     OneplusWidget \
     MintBrowser \
-    Phonograph
+    Phonograph \
+    CameraGo
