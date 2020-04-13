@@ -57,4 +57,5 @@ PRODUCT_PACKAGES += \
     OneplusWidget \
     MintBrowser \
     Phonograph \
-    CameraGo
+    CameraGo \
+    RemovePackages
