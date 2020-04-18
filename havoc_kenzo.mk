@@ -44,7 +44,10 @@ TARGET_USE_JELLY := true
 PRODUCT_PACKAGES += \
     FMRadio \
     Recorder \
-    AdvancedControls
+    AdvancedControls \
+    OneplusWidget \
+    MintBrowser \
+    Phonograph
 	
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
