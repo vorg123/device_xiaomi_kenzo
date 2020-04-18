@@ -48,7 +48,8 @@ PRODUCT_PACKAGES += \
     AdvancedControls \
     OneplusWidget \
     MintBrowser \
-    Phonograph
+    Phonograph \
+    CameraGo
 	
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
