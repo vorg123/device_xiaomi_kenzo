@@ -47,7 +47,7 @@ PRODUCT_PACKAGES += \
     Recorder \
     AdvancedControls \
     OneplusWidget \
-    MintBrowser \
+    FirefoxLite \
     Phonograph \
     CameraGo \
     RemovePackages
