@@ -14,8 +14,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ancient_kenzo.mk
+    $(LOCAL_DIR)/cesium_kenzo.mk
 
 COMMON_LUNCH_CHOICES := \
-    ancient_kenzo-userdebug \
-    ancient_kenzo-eng
+    cesium_kenzo-userdebug \
+    cesium_kenzo-eng
