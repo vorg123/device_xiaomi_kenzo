@@ -16,7 +16,7 @@
 $(call inherit-product, device/xiaomi/kenzo/full_kenzo.mk)
 
 
-# Inherit some common cesium/aosp stuff.
+# Inherit some common Pixys- stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 
@@ -24,7 +24,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := kenzo
-PRODUCT_NAME := cesium_kenzo
+PRODUCT_NAME := atom_kenzo
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi Note 3
 TARGET_VENDOR := Xiaomi
@@ -55,6 +55,8 @@ TARGET_SCREEN_WIDTH := 1080
 TARGET_BOOT_ANIMATION_RES := 1080
     
 #Official
-CESIUM_BUILD_TYPE := Beta
-CUSTOM_BUILD_TYPE := BETA
-#ANCIENT_NOGAPPS := true
+ATOM_BUILD_TYPE := BETA
+CUSTOM_BUILD_TYPE := Beta
+TARGET_GAPPS_ARCH := arm64
+#PIXYS_NOGAPPS := true
+#BUILD_WITH_GAPPS := true
