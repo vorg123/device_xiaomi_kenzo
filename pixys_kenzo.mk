@@ -44,7 +44,7 @@ BUILD_FINGERPRINT=Xiaomi/kenzo/kenzo:6.0.1/MMB29M/V8.2.1.0.MHOCNDL:user/release-
 TARGET_USE_JELLY := true
 PRODUCT_PACKAGES += \
     OneplusWidget \
-    MeBrowser \
+    FirefoxLite \
     Musicolet \
     CameraGo \
     RemovePackages
