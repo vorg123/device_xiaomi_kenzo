@@ -24,7 +24,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := kenzo
-PRODUCT_NAME := cos_kenzo
+PRODUCT_NAME := cesium_kenzo
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi Note 3
 TARGET_VENDOR := Xiaomi
@@ -55,5 +55,6 @@ TARGET_SCREEN_WIDTH := 1080
 TARGET_BOOT_ANIMATION_RES := 1080
     
 #Official
-CESIUM_BUILD_TYPE := Beta
+#COLT_BUILD_TYPE := Beta
+CUSTOM_BUILD_TYPE := Beta
 #ANCIENT_NOGAPPS := true
