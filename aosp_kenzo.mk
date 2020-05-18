@@ -24,7 +24,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := kenzo
-PRODUCT_NAME := atom_kenzo
+PRODUCT_NAME := aosp_kenzo
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi Note 3
 TARGET_VENDOR := Xiaomi
@@ -43,6 +43,9 @@ BUILD_FINGERPRINT=Xiaomi/kenzo/kenzo:6.0.1/MMB29M/V8.2.1.0.MHOCNDL:user/release-
 # Product packages
 TARGET_USE_JELLY := true
 PRODUCT_PACKAGES += \
+    AdvancedControls \
+    XiaomiDoze \
+    Gallery2 \
     OneplusWidget \
     MeBrowser \
     Musicolet \
@@ -55,8 +58,8 @@ TARGET_SCREEN_WIDTH := 1080
 TARGET_BOOT_ANIMATION_RES := 1080
     
 #Official
-ATOM_BUILD_TYPE := BETA
+#ATOM_BUILD_TYPE := BETA
 CUSTOM_BUILD_TYPE := Beta
-TARGET_GAPPS_ARCH := arm64
+#TARGET_GAPPS_ARCH := arm64
 #PIXYS_NOGAPPS := true
 #BUILD_WITH_GAPPS := true
