@@ -17,14 +17,14 @@ $(call inherit-product, device/xiaomi/kenzo/full_kenzo.mk)
 
 
 # Inherit some common Pixys- stuff.
-$(call inherit-product, vendor/pixys/config/common_full_phone.mk)
+$(call inherit-product, vendor/du/config/common_full_phone.mk)
 
 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := kenzo
-PRODUCT_NAME := pixys_kenzo
+PRODUCT_NAME := du_kenzo
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi Note 3
 TARGET_VENDOR := Xiaomi
@@ -43,7 +43,6 @@ BUILD_FINGERPRINT=Xiaomi/kenzo/kenzo:6.0.1/MMB29M/V8.2.1.0.MHOCNDL:user/release-
 # Product packages
 TARGET_USE_JELLY := true
 PRODUCT_PACKAGES += \
-    AdvancedControls \
     OneplusWidget \
     FirefoxLite \
     Musicolet \
@@ -56,6 +55,9 @@ TARGET_SCREEN_WIDTH := 1080
 TARGET_BOOT_ANIMATION_RES := 1080
     
 #Official
-PIXYS_BUILD_TYPE := Beta
 #PIXYS_NOGAPPS := true
 #BUILD_WITH_GAPPS := true
+
+#Corvus/Du specifics
+DU_BUILD_TYPE := Beta
+#USE_GAPPS := true

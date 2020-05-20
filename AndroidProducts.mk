@@ -14,8 +14,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pixys_kenzo.mk
+    $(LOCAL_DIR)/du_kenzo.mk
 
 COMMON_LUNCH_CHOICES := \
-    pixys_kenzo-userdebug \
-    pixys_kenzo-eng
+    du_kenzo-userdebug \
+    du_kenzo-eng
